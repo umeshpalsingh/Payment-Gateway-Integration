@@ -1,0 +1,208 @@
+/* Global styles
+----------------------------------------------*/
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, rgba(20, 39, 78, 0.699) , rgba(23, 0, 85, 0.699));
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to right, rgba(20, 39, 78, 0.699) , rgba(23, 0, 85, 0.699)), url(../images/help-childrens.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.headline {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.container-fluid {
+  padding: 8% 5%;
+}
+
+.headings {
+  line-height: 1.5;
+  color: #fff;
+}
+
+.helping-hand {
+  width: 2px;
+}
+
+.about-section {
+  height: 100vh;
+  background-color: #fff;
+  background-size: cover;
+  padding: 3% 10%;
+  margin: 0 auto;
+}
+
+.about-heading {
+  font-weight: 700;
+  color: #14274E;
+  margin-bottom: 20px;
+}
+
+.about-img {
+  width: 200%;
+  border-radius: 10px;
+}
+
+.about-text {
+  text-align: justify;
+  line-height: 2;
+}
+
+.about-paragraph {
+  color: #394867;
+  font-size: 1.1rem;
+}
+
+.about-second {
+  width: 30%;
+  margin-left: 60%;
+}
+
+#footer {
+  height: 50vh;
+  padding: 20px auto;
+  background: #112031;
+  text-align: center;
+}
+
+.footer-link {
+  color: #fff;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
+.footer-heading {
+    color: #F1F6F9;
+}
+
+.facebook:hover {
+  color: #1198F6;
+}
+
+.insta:hover {
+  color: #F037A5;
+}
+
+.linkedin:hover {
+  color: #0A66C2;
+}
+
+.twitter:hover {
+  color: #1A8CD8;
+}
+
+.mail:hover {
+  color: #FAEDF0;
+}
+
+.query {
+  font-size: 1.1rem;
+
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  height: 10vh;
+  width: 100%;
+  padding: 20px
+}
+
+
+@media screen and (max-width: 600px) {
+  #about {
+    margin-bottom: 1300px;
+    margin-top: 70px;
+  }
+
+  .footer-heading {
+    font-size: 1.2rem;
+  }
+
+  .query {
+    font-size: 1rem;
+  }
+
+  .payment-button {
+    margin-left: 30px;
+  }
+
+  .header {
+    text-align: left;
+    line-height: 2;
+    height: 120vh;
+  }
+
+  .container-fluid {
+    margin-right: 50px !important;
+  }
+
+  .upper-section {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  #about {
+    margin-bottom: 800px;
+    margin-top: 30px;
+  }
+
+  .payment-button {
+    margin-left: 20px;
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  #about {
+    margin-bottom: 300px;
+    margin-top: 50px;
+  }
+
+  .payment-button {
+    margin-left: 30px;
+  }
+}

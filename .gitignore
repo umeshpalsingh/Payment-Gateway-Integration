@@ -1,0 +1,4 @@
+/node_modules
+donation
+npm-debug.log
+/views/donation.ejs
