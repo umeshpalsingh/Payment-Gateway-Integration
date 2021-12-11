@@ -157,6 +157,10 @@ body {
     margin-top: 70px;
   }
 
+  .about-text {
+    text-align: left;
+  }
+
   .footer-heading {
     font-size: 1.2rem;
   }
@@ -170,7 +174,7 @@ body {
   }
 
   .header {
-    text-align: left;
+    text-align: center;
     line-height: 2;
     height: 120vh;
   }
